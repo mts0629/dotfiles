@@ -2,12 +2,12 @@
 
 set -u
 
-DOTPATH=~./dotfiles
+DOTPATH=~/dotfiles
 
 for f in .??*; do
     # specify ignored dotfiles
     [ "${f}" = ".git" ] && continue
 
-    ln -snfv "${DOTPATH}/${f}" "${HOME}/${f}"
+    ln -snvf "${DOTPATH}/${f}" "${HOME}/${f}"
 done
 
