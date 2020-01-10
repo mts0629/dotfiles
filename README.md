@@ -10,3 +10,5 @@ $ cd dotfiles
 $ ./install.sh
 ```
 
+Symbolic links are created at home directory (~/).
+
