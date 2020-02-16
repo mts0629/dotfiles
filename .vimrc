@@ -6,7 +6,8 @@ set nocompatible
 set nobackup
 set noswapfile
 set autoread
-set encoding=utf-8
+set fileformats=unix,dos,mac
+set encoding=utf-8,sjis
 filetype plugin on
 
 " visual
@@ -20,7 +21,7 @@ set showcmd
 set list
 set listchars=tab:>-,trail:-,extends:>,precedes:<,nbsp:%
 syntax on
-colorscheme default
+colorscheme elflord
 
 " search
 set ignorecase
