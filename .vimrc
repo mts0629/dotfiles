@@ -7,7 +7,9 @@ set nobackup
 set noswapfile
 set autoread
 set fileformats=unix,dos,mac
-set encoding=utf-8,sjis
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8,sjis
 filetype plugin on
 
 " visual
