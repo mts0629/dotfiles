@@ -36,6 +36,10 @@ set wrapscan
 " backspace
 set backspace=indent,eol,start
 
+" command
+set wildmenu
+set history=5000
+
 " indent
 set expandtab
 set softtabstop=4
