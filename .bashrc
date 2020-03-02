@@ -114,9 +114,11 @@ if ! shopt -oq posix; then
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
   fi
-fi
+f
 
-alias python="python3"
+# editor program
+export EDITOR=vim
 
-EDITOR=vim
+# pager program
+export PAGER=less
 
