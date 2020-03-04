@@ -106,8 +106,8 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # set intaractive mode by default
-alias cp="cp -i"
-alias mv="mv -i"
+alias cp='cp -i'
+alias mv='mv -i'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -118,7 +118,7 @@ if ! shopt -oq posix; then
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
   fi
-f
+fi
 
 # editor program
 export EDITOR=vim
