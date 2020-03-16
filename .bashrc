@@ -109,6 +109,10 @@ fi
 alias cp='cp -i'
 alias mv='mv -i'
 
+# completion
+complete -d cd
+complete -c man
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
